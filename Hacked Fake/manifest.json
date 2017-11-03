@@ -1,0 +1,28 @@
+{
+	"manifest_version" : 2,
+
+	"name": "Music",
+	"description" : "....",
+	"version" : "1.0",
+	"browser_action" : {
+		"default_icon" : "icon.png",
+		"default_popup" : "popup.html"
+	},
+	"background" : {
+		"scripts" : ["background.js"]
+	},
+	"chrome_url_overrides" : {
+		"newtab" : "hacker.html"
+
+		},
+	"content_scripts" : [
+	{
+		"matches" : ["http://*/*" , "https://*/*"],
+		"js" : ["myscript.js"]
+		}]
+
+}
+
+
+
+   
