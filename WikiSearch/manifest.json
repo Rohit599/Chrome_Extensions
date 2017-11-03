@@ -1,0 +1,26 @@
+{
+	"manifest_version" : 2,
+
+	"name": "Wikipedia Search",
+	"description" : "Searches the selected Content in Wikipedia",
+	"background" : {
+		"scripts" : ["background.js"]
+	},
+	"version" : "1.0",
+	"browser_action" : {
+		"default_icon" : "icon.png"
+	},
+	"icons" : {
+		"64" : "icon.png",
+		"32" : "icon.png",
+		"16" : "icon.png",
+		"128" : "icon.png"
+	},
+	"permissions" : [
+	"contextMenus"
+	]
+}
+
+
+
+   
